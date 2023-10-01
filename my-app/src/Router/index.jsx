@@ -1,3 +1,6 @@
+//Router/index.jsx
+
+
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -9,7 +12,7 @@ import TodoDetails from "../pages/Todo-details"
 
 
 import { Text } from "react-native";
-import completedTask from "../pages/completedTask";
+import completedTask from "../pages/CompletedTask";
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 const Router = () => {
